@@ -1,0 +1,58 @@
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: rgb(241, 241, 241);
+  padding-top: 20px;
+  border: 2px solid #111111;
+  border-radius: 8px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  background-color: #494949;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.tag,
+.location {
+  color: rgb(127, 126, 126);
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(127, 126, 126);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  align-items: center;
+  padding: 8px;
+  border-right: 1px solid rgb(127, 126, 126);
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.itemValue {
+  font-weight: 700;
+}
